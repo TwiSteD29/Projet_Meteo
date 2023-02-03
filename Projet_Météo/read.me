@@ -1,0 +1,23 @@
+Projet réalisé par Mathieu SIMOND et Noa DUCAROIX--LASSEUR 
+Groupe MISE
+
+Commande pour compiler le c : make
+Commande pour exécuter le c : ./tri_donnees 
+Commande pour exécuter le script shell : ./script.sh ou bash script.sh
+
+
+* SCRIPT SHELL :
+
+
+Les bonus n'ont pas été fait.
+
+
+* CODE EN C :
+
+Le tri par liste chaînée ou tab n'est pas développé.
+
+Problème tri humidité avec AVL/ABR : seulement 32 stations dont une station en double donc on récupère les données de 31 stations au lieu de 62.
+
+Le mode 3 pour la température avec le tri par AVL ne fonctionne pas il y a une erreur de segmentation à la ligne 1104 dans fonctions_tri_AVL.c. Cependant, le premier tri par ordre chronologique s'effectue correctement.
+Donc nous avons mis en commentaire tout le code qui permet de trier le mode 3 de la température par avl à la fin du fichier fonctions_tri_AVL.c.
+Nous n'avons donc pas pris la peine de développer la fonction pour le tri par AVL du mode 3 de la pression supposant qu'il y aurait la même erreur.
